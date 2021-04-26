@@ -1,0 +1,123 @@
+body{
+    background-color:orange;
+    height:100%;
+    width:auto;
+}
+
+
+table,tr,th,td {
+border: 9px solid black;
+vertical-align: left;
+
+}
+table {
+width: 0px;
+vertical-align:left;
+height:10px;
+
+}
+th {
+width:100px;
+color: black;
+text-align: center;
+background-color:orange;
+font-size: 70px;
+}
+td{
+font-size: 30px;
+text-align: center;
+background-color:#ff6f08;
+width:15%;
+color:black;
+font-family:sans-serif, arial;
+
+}
+
+#jax{
+    font-size:48px;
+}
+
+#logo{
+  min-width:100px;  
+  max-width:375px;
+  padding:0px;
+  margin:0px;
+}
+
+#building{
+    position:absolute;
+    right:10%;
+}
+
+body, html {
+  height: 100%;
+  margin: 0;
+
+}
+
+.tablink {
+  background-color: #555;
+  color: white;
+  float:left;
+  border: none;
+  outline: 4px solid black;
+  cursor: pointer;
+  padding: 14px 16px;
+  font-size: 17px;
+  width: 25%;
+ 
+ 
+}
+
+.tablink:hover {
+  background-color: #777;
+}
+
+
+.tabcontent {
+  color: white;
+  display: none;
+  padding: 100px 20px;
+  height: auto;
+  width: 100%;
+  font-size:25px;
+
+}
+
+h4, h3, h2, h1{
+    font-variant:small-caps;
+    font-size:35px;
+   
+
+}
+h1{
+    text-align:center;
+}
+ 
+ .history{
+    margin:10px;
+}
+
+p{
+    color:white;
+}
+
+h1{
+    margin:20px;
+}
+.pic{
+    outline:black solid;
+    box-shadow:10px 5px 5px black;
+}
+/*styles for image on contact page*/
+.photo{
+     outline:black solid;
+    box-shadow:10px 5px 5px black;
+    position:absolute;
+    left:50%;
+
+}
+#About {background-color: orange;}
+#News {background-color: #588957;}
+#Contact {background-color: #795F3E;}
+#Give {background-color: #AE1E23}
